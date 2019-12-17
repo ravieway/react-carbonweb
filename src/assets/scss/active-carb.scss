@@ -1,0 +1,49 @@
+
+@import 'active-carb/variables';
+@import 'active-carb/mixins';
+
+// Plugins CSS
+@import "active-carb/plugins/plugin-bootstrap-switch";
+@import "active-carb/plugins/plugin-nouislider";
+@import "active-carb/plugins/plugin-datepicker";
+
+// Core CSS
+@import "active-carb/buttons";
+@import "active-carb/inputs";
+@import "active-carb/checkbox-radio";
+@import "active-carb/progress-bars";
+@import "active-carb/badges";
+@import "active-carb/pagination";
+@import "active-carb/typography";
+@import "active-carb/misc";
+@import "active-carb/labels";
+
+// components
+@import "active-carb/nucleo-icons";
+@import "active-carb/social-buttons";
+@import "active-carb/tabs-navs";
+@import "active-carb/navbars";
+@import "active-carb/dropdown";
+@import "active-carb/alerts";
+@import "active-carb/images";
+@import "active-carb/tooltips-and-popovers";
+@import "active-carb/modal";
+@import "active-carb/icons";
+@import "active-carb/carousel";
+@import "active-carb/footers";
+
+// Cards
+@import "active-carb/cards";
+@import "active-carb/cards/card-plain";
+@import "active-carb/cards/card-register";
+@import "active-carb/cards/card-profile";
+
+// example pages and sections
+@import "active-carb/examples";
+@import "active-carb/sections";
+
+
+@import "active-carb/responsive";
+
+// React Differences
+@import "react/react-differences.scss"
