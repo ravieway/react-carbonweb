@@ -47,14 +47,6 @@ function LandingPage() {
                   want the user to see more.
                 </h5>
                 <br />
-                <Button
-                  className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                >
-                  See Details
-                </Button>
               </Col>
             </Row>
             <br />
