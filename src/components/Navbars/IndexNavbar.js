@@ -51,7 +51,7 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="cbaselabs"
           >
             Active Carbon
           </NavbarBrand>
