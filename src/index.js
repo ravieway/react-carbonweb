@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/active-carb.scss";
+
 // pages
 import Index from "views/Index.js";
 import LandingPage from "views/Pages/LandingPage.js";

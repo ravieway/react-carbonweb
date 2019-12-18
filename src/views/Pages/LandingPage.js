@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Route } from 'react-router-dom';
 
 
 import {
@@ -21,6 +22,7 @@ import {
 // core components
 
 import Footer from "components/Footers/Footer.js";
+import IndexNavbar from "components/Navbars/IndexNavbar";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -32,7 +34,7 @@ function LandingPage() {
   });
   return (
     <>
-
+      <Route exact path="/langingpage" component={IndexNavbar} /> 
       <div className="main">
         <div className="section text-center">
           <Container>
@@ -123,7 +125,7 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center">
+        <div  id = "testtt" className="section section-dark text-center">
           <Container>
             <h2 className="title">Let's talk about us</h2>
             <Row>
@@ -133,7 +135,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                        src={require("assets/img/faces/dummy.jpg")}
                       />
                     </a>
                   </div>
@@ -184,7 +186,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        src={require("assets/img/faces/dummy.jpg")}
                       />
                     </a>
                   </div>
@@ -236,7 +238,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
+                        src={require("assets/img/faces/dummy.jpg")}
                       />
                     </a>
                   </div>

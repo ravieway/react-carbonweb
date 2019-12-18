@@ -43,6 +43,7 @@ function IndexNavbar() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
   });
+
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
@@ -51,7 +52,7 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="cbaselabs"
+            title="Active Carbon"
           >
             Active Carbon
           </NavbarBrand>
