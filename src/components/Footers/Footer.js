@@ -13,7 +13,7 @@ function DemoFooter() {
              
               <li>
                 <a
-                  href=""
+                  href="#"
                   target="_blank"
                 >
                   Home
@@ -21,7 +21,7 @@ function DemoFooter() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#"
                   target="_blank"
                 >
                   Contact

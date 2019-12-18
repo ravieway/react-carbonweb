@@ -116,6 +116,15 @@ function IndexNavbar() {
                 <i className="nc-icon nc-circle-10" /> About Us
               </NavLink>
             </NavItem>
+
+            <NavItem>
+              <NavLink
+                href=""
+                target="_blank"
+              >
+                <i className="nc-icon nc-basket" /> Products
+              </NavLink>
+            </NavItem>
        
             <NavItem>
               <NavLink

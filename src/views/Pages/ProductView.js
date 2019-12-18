@@ -9,8 +9,6 @@ import {
   TabContent,
   TabPane,
   Container,
-  Row,
-  Col
 } from "reactstrap";
 
 // core components
@@ -66,12 +64,12 @@ function ProductView() {
               <TabContent activeTab={activeTab} className="text-center">
                 <TabPane tabId="1">
 
-                <img
+                <img alt="..."
                         className=" imgalign"
                         src={require("assets/img/login-image.jpg")}
                       />
                     <div>
-                     <h4>Product Title</h4>
+                     <h4>Product Title 1</h4>
                      <p  className = "text-para"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  
                     </p>
                     </div>
@@ -80,30 +78,32 @@ function ProductView() {
               
                 <TabPane tabId="2">
 
-                    <img
+                    <img alt="..."
                         className=" imgalign"
                         src={require("assets/img/login-image.jpg")}
                       />
                     <div>
-                     <h4>Product Title</h4>
+                     <h4>Product Title 2</h4>
                      <p  className = "text-para"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  
                     </p>
                     </div>
                 </TabPane>
                 <TabPane tabId="3">
-                <img
+                <img alt="..."
                         className=" imgalign"
                         src={require("assets/img/login-image.jpg")}
                       />
                     <div>
-                     <h4>Product Title</h4>
+                     <h4>Product Title 3</h4>
                      <p  className = "text-para"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  
                     </p>
                     </div>
                 </TabPane>
               </TabContent>
         </Container>
-      </div>{" "}
+
+        <br></br><br></br><br></br><br></br><br></br>
+      </div>
     </>
   );
 }

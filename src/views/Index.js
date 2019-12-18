@@ -7,9 +7,11 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import SummeryView from "./Pages/SummeryView.js";
-import Footer from "components/Footers/Footer.js";
 import ProductView from "./Pages/ProductView.js";
-import TestSection from "views/index-sections/SectionTypography.js";
+import AboutView from "./Pages/AboutView.js";
+import ContactView from "./Pages/ContactView.js";
+import Footer from "components/Footers/Footer.js";
+//import TestSection from "views/index-sections/SectionTypography.js";
 
 
 
@@ -26,9 +28,11 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <SummeryView />
+      <AboutView />
       <ProductView />
-      <TestSection />
+      <ContactView />
       <Footer />
+
     </>
   );
 }
