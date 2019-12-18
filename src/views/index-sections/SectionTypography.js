@@ -129,14 +129,14 @@ function SectionTypography() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg")}
+                  src={require("assets/img/login-image.jpg")}
                 />
                 <div className="img-details">
                   <div className="author">
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/faces/joe-gardner-2.jpg")}
+                      src={require("assets/img/login-image.jpg")}
                     />
                   </div>
                   <p>Sonia Green</p>
@@ -147,7 +147,7 @@ function SectionTypography() {
                 <img
                   alt="..."
                   className="img-circle img-no-padding img-responsive"
-                  src={require("assets/img/faces/kaci-baum-2.jpg")}
+                  src={require("assets/img/login-image.jpg")}
                 />
                 <p className="text-center">Brigitte Bardot</p>
               </Col>
@@ -156,7 +156,7 @@ function SectionTypography() {
                 <img
                   alt="..."
                   className="img-thumbnail img-responsive"
-                  src={require("assets/img/faces/erik-lucatero-2.jpg")}
+                  src={require("assets/img/login-image.jpg")}
                 />
                 <p className="text-center">John Keynes</p>
               </Col>

@@ -9,11 +9,6 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col
@@ -21,7 +16,7 @@ import {
 
 // core components
 
-function LandingPage() {
+function SummeryView() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -53,7 +48,7 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                    <i className="nc-icon nc-cart-simple" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Best Products</h4>
@@ -87,7 +82,7 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
+                    <i className="nc-icon nc-briefcase-24" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Professional Support</h4>
@@ -104,7 +99,7 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
+                    <i className="nc-icon nc-satisfied" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Customer Service</h4>
@@ -121,7 +116,7 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div  id = "testtt" className="section section-dark text-center">
+        <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Let's talk about us</h2>
             <Row>
@@ -283,9 +278,10 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
+        
       </div>
     </>
   );
 }
 
-export default LandingPage;
+export default SummeryView;

@@ -6,8 +6,9 @@ import React from "react";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import LandingPage from "./Pages/LandingPage";
+import SummeryView from "./Pages/SummeryView.js";
 import Footer from "components/Footers/Footer.js";
+import ProductView from "./Pages/ProductView.js";
 
 
 
@@ -23,7 +24,8 @@ function Index() {
     <>
       <IndexNavbar />
       <IndexHeader />
-      <LandingPage />
+      <SummeryView />
+      <ProductView />
       <Footer />
     </>
   );

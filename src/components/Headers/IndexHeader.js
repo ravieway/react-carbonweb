@@ -21,10 +21,10 @@ function IndexHeader() {
             <div className="title-brand">
               <h1 className="presentation-title">Active Carbon</h1>
               <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+                <img alt="..." src={require("assets/img/fog.png")} />
               </div>
               <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+                <img alt="..." src={require("assets/img/fog.png")} />
               </div>
             </div>
             <h2 className="presentation-subtitle text-center">

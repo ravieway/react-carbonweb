@@ -8,7 +8,6 @@ import "assets/scss/active-carb.scss";
 
 // pages
 import Index from "views/Index.js";
-import LandingPage from "views/Pages/LandingPage.js";
 
 // others
 
@@ -16,10 +15,6 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/index" render={props => <Index {...props} />} />
-      <Route
-        path="/landing-page"
-        render={props => <LandingPage {...props} />}
-      />
       <Redirect to="/index" />
     </Switch>
   </BrowserRouter>,
