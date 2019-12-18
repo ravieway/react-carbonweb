@@ -7,7 +7,6 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import LandingPage from "./Pages/LandingPage";
-import SectionDownload from "./index-sections/SectionRegister.js";
 import Footer from "components/Footers/Footer.js";
 
 
@@ -25,7 +24,6 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <LandingPage />
-      <SectionDownload/>
       <Footer />
     </>
   );
