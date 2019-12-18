@@ -23,6 +23,18 @@
     border-radius: 50% !important;
     max-width: 100%;
 }
+
+.imgalign{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right:20px;
+  }
+
+.text-para{
+    text-align: justify;
+  }
+
 .img-thumbnail{
     border: 0 none;
     border-radius: $border-radius-extreme;

@@ -9,6 +9,7 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import SummeryView from "./Pages/SummeryView.js";
 import Footer from "components/Footers/Footer.js";
 import ProductView from "./Pages/ProductView.js";
+import TestSection from "views/index-sections/SectionTypography.js";
 
 
 
@@ -26,6 +27,7 @@ function Index() {
       <IndexHeader />
       <SummeryView />
       <ProductView />
+      <TestSection />
       <Footer />
     </>
   );

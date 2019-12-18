@@ -4940,6 +4940,17 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
     max-width: 100%
 }
 
+.imgalign{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right:5px;
+  }
+
+.text-para{
+    text-align: justify;
+  }
+
 .img-thumbnail {
     border: 0 none;
     border-radius: 12px;
