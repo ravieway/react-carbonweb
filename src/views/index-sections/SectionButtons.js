@@ -222,7 +222,7 @@ function SectionButtons() {
               <Button
                 className="mr-1"
                 color="link"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Default
@@ -230,7 +230,7 @@ function SectionButtons() {
               <Button
                 className="btn-link mr-1"
                 color="primary"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Primary
@@ -238,7 +238,7 @@ function SectionButtons() {
               <Button
                 className="btn-link mr-1"
                 color="success"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Success
@@ -246,7 +246,7 @@ function SectionButtons() {
               <Button
                 className="btn-link mr-1"
                 color="info"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Info
@@ -254,7 +254,7 @@ function SectionButtons() {
               <Button
                 className="btn-link mr-1"
                 color="warning"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Warning
@@ -262,7 +262,7 @@ function SectionButtons() {
               <Button
                 className="btn-link mr-1"
                 color="danger"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Danger
@@ -270,7 +270,7 @@ function SectionButtons() {
               <Button
                 className="btn-link"
                 color="neutral"
-                href="#pablo"
+                href="#test"
                 onClick={e => e.preventDefault()}
               >
                 Neutral

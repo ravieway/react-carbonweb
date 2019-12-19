@@ -22,7 +22,7 @@ function ProductView() {
   };
   return (
     <>
-    <div className="section section text-center">
+    <div className="section section text-center " style={{paddingBottom:250}}>
         <Container>
         <h2 className="title">Product Range</h2>
               <div className="nav-tabs-navigation">
@@ -102,7 +102,6 @@ function ProductView() {
               </TabContent>
         </Container>
 
-        <br></br><br></br><br></br><br></br><br></br>
       </div>
     </>
   );

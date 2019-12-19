@@ -1,6 +1,8 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import QuotePopup from "views/Pages/QuotePopup.js";
+import { ButtonToolbar } from 'react-bootstrap';
 // reactstrap components
 import {
   Button,
@@ -14,6 +16,7 @@ import {
 } from "reactstrap";
 
 function IndexNavbar() {
+  const [modalShow, setModalShow] = React.useState(false);
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -135,15 +138,17 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#pablo"
-                target="_blank"
-                disabled
-              >
-                Free Quote
-              </Button>
+
+            <ButtonToolbar>
+             <Button className="btn-round" color="danger" onClick={() => setModalShow(true)}>
+                 Free Quote
+            </Button>
+  
+            <QuotePopup
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+            />
+           </ButtonToolbar>
             </NavItem>
           </Nav>
         </Collapse>

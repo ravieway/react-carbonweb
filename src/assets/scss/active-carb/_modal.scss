@@ -1,13 +1,13 @@
 .modal-header {
     border-bottom: 1px solid $medium-gray;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     display: block !important;
 
     &.no-border-header{
         border-bottom: 0 none !important;
         & .modal-title{
-            margin-top: 20px;
+            margin-top: 0px;
 
         }
     }
@@ -43,7 +43,7 @@
     padding-top: 60px;
 }
 .modal-body{
-    padding: 20px 50px;
+    padding: 10px 50px;
     color: #000;
 }
 .modal-footer {

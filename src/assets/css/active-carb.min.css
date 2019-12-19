@@ -6605,7 +6605,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .contact-form {
-    margin-top: 30px
+    margin-top: 0px
 }
 
 .contact-form label {

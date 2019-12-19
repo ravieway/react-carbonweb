@@ -12,7 +12,6 @@ import AboutView from "./Pages/AboutView.js";
 import ContactView from "./Pages/ContactView.js";
 import Footer from "components/Footers/Footer.js";
 
-//import TestSection from "views/index-sections/SectionTypography.js";
 
 
 

@@ -29,8 +29,8 @@ function ContactView() {
         <Row>
           <Col md="6">    <GoogleMap /> </Col> &nbsp; &nbsp; 
           <Col className="ml-auto mr-auto" md="5">
-            <h2 className="text-center">Contact Us</h2>
-            <Form className="contact-form">
+            <h2 className="title text-center">Contact Us</h2>
+            <Form className="contact-form title">
               <Row>
                 <Col md="6">
                   <label>Name</label>

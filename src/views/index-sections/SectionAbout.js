@@ -33,7 +33,7 @@ function AboutView() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/faces/dummy.jpg")}
@@ -41,7 +41,7 @@ function AboutView() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Henry Ford</CardTitle>
                         <h6 className="card-category">Product Manager</h6>
@@ -57,7 +57,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -65,7 +65,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -73,7 +73,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -84,7 +84,7 @@ function AboutView() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/faces/dummy.jpg")}
@@ -92,7 +92,7 @@ function AboutView() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Sophie West</CardTitle>
                         <h6 className="card-category">Designer</h6>
@@ -109,7 +109,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -117,7 +117,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -125,7 +125,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
@@ -136,7 +136,7 @@ function AboutView() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
                         src={require("assets/img/faces/dummy.jpg")}
@@ -144,7 +144,7 @@ function AboutView() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <a href="#test" onClick={e => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Robert Orben</CardTitle>
                         <h6 className="card-category">Developer</h6>
@@ -161,7 +161,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-twitter" />
@@ -169,7 +169,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
@@ -177,7 +177,7 @@ function AboutView() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
+                      href="#test"
                       onClick={e => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
