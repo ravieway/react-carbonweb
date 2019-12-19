@@ -1,5 +1,6 @@
 
 import React from "react";
+import GoogleMap from "./GoogleMapView.js";
 
 
 // reactstrap components
@@ -21,10 +22,13 @@ function ContactView() {
   });
   return (
     <>
+    <div class = "main">
       <div className="section section section-dark landing-section">
+
       <Container>
         <Row>
-          <Col className="ml-auto mr-auto" md="8">
+          <Col md="6">    <GoogleMap /> </Col> &nbsp; &nbsp; 
+          <Col className="ml-auto mr-auto" md="5">
             <h2 className="text-center">Contact Us</h2>
             <Form className="contact-form">
               <Row>
@@ -68,6 +72,7 @@ function ContactView() {
           </Col>
         </Row>
       </Container>
+    </div>
     </div>
     </>
   );

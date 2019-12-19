@@ -66,7 +66,7 @@ function ProductView() {
 
                 <img alt="..."
                         className=" imgalign"
-                        src={require("assets/img/login-image.jpg")}
+                        src={require("assets/img/carbon-or.jpg")}
                       />
                     <div>
                      <h4>Product Title 1</h4>
@@ -80,7 +80,7 @@ function ProductView() {
 
                     <img alt="..."
                         className=" imgalign"
-                        src={require("assets/img/login-image.jpg")}
+                        src={require("assets/img/carbon-ore.jpg")}
                       />
                     <div>
                      <h4>Product Title 2</h4>
